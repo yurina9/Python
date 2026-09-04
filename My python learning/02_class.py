@@ -105,12 +105,3 @@ print(10 != 5)
 print(10 > 20)
 print(10 <= 10)
 
-#COMMON MISTAKES 
-age = int(input("Age: "))
-print(age + 10)
-
-print(f"Age: {15}")
-
-score = 100
-if score == 100:
-    print("correct comparison")
