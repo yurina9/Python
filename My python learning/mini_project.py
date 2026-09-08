@@ -58,11 +58,11 @@ def class_summary(students):
 
 # COORDINATOR / DRIVER
 def run():
-    alice = create_student("Alice", 92, 88, 95, age=14, city="Dubai")
-    bob = create_student("Bob", 65, 72, 58, age=15)
-    charlie = create_student("Charlie", 55, 60, 48, age=14, city="Doha")
+    yuri = create_student("Yuri", 92, 88, 95, age=14, city="Dubai")
+    roji = create_student("Roji", 65, 72, 58, age=15)
+    kritika = create_student("Kritika", 55, 60, 48, age=14, city="Doha")
 
-    students = [alice, bob, charlie]
+    students = [yuri, roji, kritika]
 
     for student in students:
         print_report_card(student)
