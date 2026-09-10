@@ -39,4 +39,3 @@ class Boat(Vehicle):
 car = Car()
 car.go()
 car.stop()
- 
